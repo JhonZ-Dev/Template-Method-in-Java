@@ -1,4 +1,5 @@
 import procesamiento_texto.DocumentProcessor;
+import procesamiento_texto.PresentationDocumentProcessor;
 import procesamiento_texto.TextDocumentProcessor;
 import procesamiento_texto.procesadorDocumentoHojaCalculo;
 
@@ -10,6 +11,9 @@ public class Main {
         textoDocumento.processDocument();
 
         DocumentProcessor hojadecalculo = new procesadorDocumentoHojaCalculo();
+        textoDocumento.processDocument();
+
+        DocumentProcessor presentaciones = new PresentationDocumentProcessor();
         textoDocumento.processDocument();
 
     }
