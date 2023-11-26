@@ -1,4 +1,6 @@
-public class TextDocumentProcessor extends DocumentProcessor{
+package procesamiento_texto;
+
+public class TextDocumentProcessor extends DocumentProcessor {
     @Override
     protected void processContent() {
         // Lógica específica para procesar contenido de un documento de texto

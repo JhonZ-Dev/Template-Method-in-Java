@@ -1,3 +1,5 @@
+package procesamiento_texto;
+
 public abstract class DocumentProcessor {
 
     public final void processDocument() {
