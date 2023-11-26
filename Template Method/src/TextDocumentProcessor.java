@@ -1,2 +1,2 @@
-public class TextDocumentProcessor {
+public class TextDocumentProcessor extends DocumentProcessor{
 }
