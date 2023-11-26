@@ -1,6 +1,10 @@
 public abstract class DocumentProcessor {
 
-
+    public final void processDocument() {
+        openDocument();
+        processContent();
+        saveDocument();
+    }
     protected void openDocument() {
         // Lógica común para abrir un documento
         System.out.println("Abriendo el documento...");
