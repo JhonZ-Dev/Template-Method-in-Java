@@ -1,4 +1,5 @@
 package procesamiento_texto;
 
-public class procesadorDocumentoHojaCalculo {
+public class procesadorDocumentoHojaCalculo extends DocumentProcessor{
+    
 }
