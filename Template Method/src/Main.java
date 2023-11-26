@@ -1,5 +1,6 @@
 import procesamiento_texto.DocumentProcessor;
 import procesamiento_texto.TextDocumentProcessor;
+import procesamiento_texto.procesadorDocumentoHojaCalculo;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,5 +8,9 @@ public class Main {
 
         DocumentProcessor textoDocumento = new TextDocumentProcessor();
         textoDocumento.processDocument();
+
+        DocumentProcessor hojadecalculo = new procesadorDocumentoHojaCalculo();
+        textoDocumento.processDocument();
+
     }
 }
