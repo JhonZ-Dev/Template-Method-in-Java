@@ -8,4 +8,9 @@ public abstract class DocumentProcessor {
 
     // Paso abstracto que debe ser implementado por las subclases
     protected abstract void processContent();
+
+    protected void saveDocument() {
+        // Lógica común para guardar un documento
+        System.out.println("Guardando el documento...");
+    }
 }
