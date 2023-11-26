@@ -1,4 +1,4 @@
 package procesamiento_texto;
 
-public class PresentationDocumentProcessor{
+public class PresentationDocumentProcessor extends DocumentProcessor{
 }
