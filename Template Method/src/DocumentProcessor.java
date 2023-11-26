@@ -1,2 +1,2 @@
-public class DocumentProcessor {
+public abstract class DocumentProcessor {
 }
