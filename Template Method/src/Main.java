@@ -6,15 +6,17 @@ import procesamiento_texto.procesadorDocumentoHojaCalculo;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-
+        System.out.println("***********Documento de texto***********************\n");
         DocumentProcessor textoDocumento = new TextDocumentProcessor();
         textoDocumento.processDocument();
 
+        System.out.println("***********Documento de hoja de calculo***********************\n");
         DocumentProcessor hojadecalculo = new procesadorDocumentoHojaCalculo();
-        textoDocumento.processDocument();
+        hojadecalculo.processDocument();
 
+        System.out.println("***********Documento de presentaciones***********************\n");
         DocumentProcessor presentaciones = new PresentationDocumentProcessor();
-        textoDocumento.processDocument();
+        presentaciones.processDocument();
 
     }
 }
